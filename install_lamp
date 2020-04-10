@@ -1,0 +1,26 @@
+#######
+#apache: 
+	sudo apt install apache2
+	service apache2 start
+###########################################
+#mysql : 
+	sudo apt install mysql-server
+	
+	#################
+	#now to change mysql settings ex: password
+	sudo mysql -u root
+
+	##into mysql > 
+	use mysql;
+	update user set authentication_string=PASSWORD('yourpassword') where user='root';
+	update user set plugin='mysql_native_password' where user='root';
+	flush privileges; ##important as hell
+	################# 
+	
+
+##################################################
+#php and phpmyadmin: 
+	sudo apt install php php-gettext libapache2-mod-php
+	sudo apt install phpmyadmin
+
+##################################################
