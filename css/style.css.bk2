@@ -1,0 +1,38 @@
+/*everything*/
+/**{
+	margin : 0;
+	padding : 0;
+}*/
+body{
+	
+	background-color: #4a604d;
+	color : #3fb9f3;
+
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+
+	/* or */
+	/*
+		font : normal 20px Arial, Helvetica, sans-serif;
+	*/
+	line-height: 3px;
+	margin : 0;
+}
+
+
+.container{
+	width : 80%;
+	margin : auto;
+}
+
+.box-1{
+	background-color : #333;
+	color: #fff;
+	
+	border-right : 5px green solid;
+	border-left: 5px green solid;
+	border-top: 5px green solid;
+	border-bottom : 5px green solid;
+	border-style: dotted;
+}	
